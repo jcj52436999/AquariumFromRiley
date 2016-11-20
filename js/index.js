@@ -129,7 +129,7 @@ var addFish = function(numFish) {
     }
 //    console.log(fishList);
 };
-
+//  more
 var moveFish = function (fish) {
     fish.item.position.x += fish.speed;
     if (fish.item.position.x < -100 ) {
